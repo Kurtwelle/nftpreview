@@ -27,28 +27,34 @@
     border-radius: 20px;
     align-content: center;
     align-content: center;
+    box-shadow: 5px, 5px, 10px rgba(red, green, blue, 0 alpha)
 }
 
 .equilibrum-1{
     height: 200px;
     margin-bottom: 300px;
     margin-right: 15px;
-    margin-left: -5px;
+    margin-left:-10px;
+    margin-top: 15px;
     width: 280px;
     border-radius: 20px;
     display:block;
-    /* justify-items: center; */
+    justify-items: center;
     border-radius: 20px;
-    /* background-image: url(image-equilibrium.jpg) */
+}
+.img {
+    width: 250px;
+
 }
 
 #equilibrum{
     height: 200px ;
-    width: 235px;
+    width: 250px;
     margin: 10px;
     display: block;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 10px;
+    margin-left: 5px;
 }
 
 .equilibrum-2 {
@@ -61,17 +67,61 @@
 }
 
 .word-1{
-    color: black;
+    color: #ffffff;
     width: 30px;
-    display: block;
+    /* display: block; */
+    justify-content: center;
+    align-items: center;
+    white-space:nowrap;
+    margin-left: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.word-2 {
+    color: rgb(80, 80, 122);
+    margin-left: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.ethereum{
+    white-space: nowrap;
+    display: inline;
+    font-size: 13px;
+}
+.eth {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+.eth-1{
+    color: aqua;
+    font-size: 13px;
+}
+
+.clock {
+    width: 15px;
+    height: 15px;
+}
+
+hr{
+    margin-left: 5px;
+    color: rgb(131, 131, 192);
+    border: 1px solid #644e8b;
+    border-radius: 10px;
+    
 }
 
 .avatar {
     width: 50px;
     height: 50px;
     border-color: blanchedalmond;
+    border: solid 2px;
+    border-radius: 100%;
+
 }
 
 .eth {
     color: aqua;
+    font-size: 13px;
 }
