@@ -3,7 +3,6 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
 }
 
 .container {
@@ -18,7 +17,7 @@
 .card {
     background-color: rgb(1, 1, 23);
     display:flex;
-    height: 430px;
+    height: 460px;
     width: 250px;
     align-items: center; 
     justify-items: center;
@@ -27,127 +26,82 @@
     border-radius: 20px;
     align-content: center;
     align-content: center;
-    box-shadow: 5px 5px 10px rgb(0, 0, 0, 30%)
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 30%);
+    flex-direction: column;
 }
 
-.equilibrum-1{
-    height: 180px;
-    margin-bottom: 300px;
-    margin-right: 15px;
-    margin-left:-10px;
-    margin-top: 15px;
-    width: 250px;
-    border-radius: 20px;
-    display:block;
-    justify-items: center;
-    border-radius: 20px;
-}
-.img {
-    width: 220px;
-}
-
-#equilibrum{
-    height: 180px ;
-    width: 220px;
-    margin: 20px;
-    display: block;
-    align-items: center;
-    border-radius: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 40px;
-    /* padding: 10px; */
-}
-
-.equilibrum-2 {
-    width: 350px;
-    height: 50px;
-    color: black;
-    justify-content: center;
-    display: block;
-
-}
-
-.word-1{
-    color: #ffffff;
-    width: 30px;
-    /* display: block; */
-    justify-content: center;
-    align-items: center;
-    white-space:nowrap;
-    margin-left: 5px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.word-2 {
-    color: rgb(80, 80, 122);
-    margin-left: 5px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 15px;
-}
-
-.ethereum{
-    white-space: nowrap;
-    display: inline;
-    font-size: 13px;
-}
-.eth {
-    width: 20px;
-    height: 20px;
-    margin-left: 5px;
-}
-.eth-1{
-    color: aqua;
-    font-size: 13px;
-}
-
-.clock {
-    width: 15px;
-    height: 15px;
-}
-
-hr{
-    margin-left: 5px;
-    color: rgb(131, 131, 192);
-    border: 1px solid #644e8b;
-    border-radius: 10px;
-    width: 210px;
-}
-
-.avatar-1{
+.top{
+    width: 100%;
+    height: 50%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
-.avatar {
-    width: 30px;
-    height: 30px;
-    border-color: blanchedalmond;
-    border: solid 2px;
-    border-radius: 100%;
-    margin-left: 5px;
-    display: flex;
+.equilibrium{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
 }
 
-.eth {
-    color: aqua;
-    font-size: 11px;
+.bottom{
+    width: 100%;
+    height: 50%;
+    padding: 15px 0px;
 }
 
-.clock{
-    color: rgb(16, 15, 15);
+.bottomTop{
+    height: 50%;
+    width: 100%;
 }
 
-.avatar-2{
-    display: flex;
-    color: rgb(47, 47, 111);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.heading{
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.headContent{
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+
+}
+
+.body{
+    width: 100%;
+}
+
+.bodyContent{
+    color: white;
     font-size: 12px;
-    height: 100px;
+    line-height: 18px;
 }
 
-.Jules {
-    font-size: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.bottomDown {
+    display: flex;
+    font-size: 13px;
+
 }
+.bottomDownTop {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    color: #ffffff;
+}
+
+.bottomDownTopLeft{
+    display: flex;
+    flex-direction: row;
+}
+
+.ethIcon{
+    width: 7px;
+    height: 12px;
+}
+
+.quantity{
+    margin-left: 5px;
+    font-size: 10px;
+    font-weight: 700;
+    color: aqua;
+}
+
